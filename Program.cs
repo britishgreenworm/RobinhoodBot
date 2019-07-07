@@ -6,7 +6,9 @@ namespace RobinhoodBot
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            settings s = new settings(AppContext.BaseDirectory + @"\settings.ini");
+
+            s.readSettings();
         }
     }
 }
