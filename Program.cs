@@ -9,6 +9,7 @@ namespace RobinhoodBot
             settings s = new settings(AppContext.BaseDirectory + @"\settings.ini");
 
             s.readSettings();
+            Console.WriteLine(s.settingsResult["username"]);
         }
     }
 }

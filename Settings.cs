@@ -1,28 +1,24 @@
 using System;
 using System.IO;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace RobinhoodBot{
     public class settings{
         private string filepath{get; set;}
+        public Dictionary<string, string> settingsResult{get; set;}
 
         public settings(string filepath){
             this.filepath = filepath;
+            settingsResult = new Dictionary<string, string>();
         }
 
         public void readSettings(){
-            try
-            {
-                using (StreamReader sr = new StreamReader(filepath))
-                {
-                    String line = sr.ReadToEnd();
-                    Console.WriteLine(line);
-                }
-            }
-            catch (IOException e)
-            {
-                Console.WriteLine("The file could not be read:");
-                Console.WriteLine(e.Message);
-            }
+            var lines = File.ReadAllLines(filepath);
+            lines.Select(q => q.Trim().Split(":"))
+                .Where(q => q.Length == 2)
+                .ToList()
+                .ForEach(q => settingsResult.Add(q[0], q[1]));
         }
     }
 }

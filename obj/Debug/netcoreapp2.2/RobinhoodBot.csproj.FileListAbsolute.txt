@@ -1,11 +1,11 @@
+C:\Projects\RobinhoodBot\obj\Debug\netcoreapp2.2\RobinhoodBot.csprojAssemblyReference.cache
+C:\Projects\RobinhoodBot\obj\Debug\netcoreapp2.2\RobinhoodBot.csproj.CoreCompileInputs.cache
+C:\Projects\RobinhoodBot\obj\Debug\netcoreapp2.2\RobinhoodBot.AssemblyInfoInputs.cache
+C:\Projects\RobinhoodBot\obj\Debug\netcoreapp2.2\RobinhoodBot.AssemblyInfo.cs
 C:\Projects\RobinhoodBot\bin\Debug\netcoreapp2.2\RobinhoodBot.deps.json
 C:\Projects\RobinhoodBot\bin\Debug\netcoreapp2.2\RobinhoodBot.runtimeconfig.json
 C:\Projects\RobinhoodBot\bin\Debug\netcoreapp2.2\RobinhoodBot.runtimeconfig.dev.json
 C:\Projects\RobinhoodBot\bin\Debug\netcoreapp2.2\RobinhoodBot.dll
 C:\Projects\RobinhoodBot\bin\Debug\netcoreapp2.2\RobinhoodBot.pdb
-C:\Projects\RobinhoodBot\obj\Debug\netcoreapp2.2\RobinhoodBot.csprojAssemblyReference.cache
-C:\Projects\RobinhoodBot\obj\Debug\netcoreapp2.2\RobinhoodBot.csproj.CoreCompileInputs.cache
-C:\Projects\RobinhoodBot\obj\Debug\netcoreapp2.2\RobinhoodBot.AssemblyInfoInputs.cache
-C:\Projects\RobinhoodBot\obj\Debug\netcoreapp2.2\RobinhoodBot.AssemblyInfo.cs
 C:\Projects\RobinhoodBot\obj\Debug\netcoreapp2.2\RobinhoodBot.dll
 C:\Projects\RobinhoodBot\obj\Debug\netcoreapp2.2\RobinhoodBot.pdb
