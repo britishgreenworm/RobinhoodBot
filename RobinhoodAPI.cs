@@ -45,7 +45,7 @@ namespace RobinhoodBot{
         public string token_type {get; set;}
         public string mfa_code {get; set;}
         public string access_token {get; set;}
-        public string refresh_token {get; set}
+        public string refresh_token {get; set;}
     
         public RobinhoodAPI(string client_id, string device_token, string grant_type, string password, string username, string scope = "internal"){
             this.client_id = client_id;
